@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+body {
+    background-color: #a7ffa4;
+}
+
+#form {
+    color: white;
+    background-color: #1a760c;
+    border-radius: 5px;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+button {
+    width: 100%;
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+    margin: 15px auto;
+}
+
+label {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.input-group {
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.35);
+
+}
+
+input {
+    padding: 2px;
+    width: 100%;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+#intentos, #errores, #resultado {
+    color: white;
+    background-color: #1a760c;
+    border-radius: 5px;
+    width: 600px;
+    padding: 30px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+h3{
+    padding: 20px;
+}

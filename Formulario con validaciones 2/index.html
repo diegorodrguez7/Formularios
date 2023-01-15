@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importación de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Importe css estilos -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Logica Formulario -->
+    <script type="text/javascript" src="logica.js"></script>
+    <title>Formulario dew05</title>
+</head>
+<body>
+    <h3 class="text-center">Formulario de Bienvenida</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form name="form" id="form" onsubmit="return false" method="get">
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-people-fill"></i> Nombre:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="nombre" placeholder="Introduce tu nombre..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-people"></i> Apellidos:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="apellidos" placeholder="Introduce tus apellidos..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-bookmark-heart"></i> Edad:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="edad" maxlength="3" placeholder="Introduce tu edad..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-search"></i> NIF:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="nif" placeholder="Introduce tu documento nacional de identidad..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-envelope"></i> E-mail:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="email" placeholder="Introduce tu correo electrónico..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-calendar-date"></i> Fecha:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="fecha" placeholder="Introduce una fecha de cumpleaños..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-telephone-fill"></i> Teléfono:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="telefono" placeholder="Introduce un teléfono..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-alarm"></i> Hora:</label>
+                        <br />
+                        <div class="input-group">
+                            <input type="text" id="hora" placeholder="Introduce un horario..." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name"><i class="bi bi-balloon"></i> Provincia:</label>
+                        <br />
+                        <select class="form-select" name="provincia" id="provincia">
+                            <option value="0" selected disabled>Selecciona una provincia</option>
+                            <option value="1">S/C de Tenerife</option>
+                            <option value="2">Las Palmas de Gran Canaria</option>
+                        </select>
+                    </div>
+                    <input class="btn btn-primary w-25"type="submit" name="enviar" id="enviar" value="Enviar" />
+                    <input  class="btn btn-primary w-25" type="reset" name="limpiar" id="button" value="Limpiar" />
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div id="resultado">
+                    <h3 class="text-center">PANTALLA DE RESULTADO</h3>
+                </div>
+                <div id="errores">
+                    <h3 class="text-center">PANTALLA DE ERRORES</h3>
+                </div>
+                <div id="intentos">
+                    <h3 class="text-center">CONTADOR DE INTENTOS</h3>
+                    <p id="contador"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>

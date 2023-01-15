@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap import -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Actividad Formulario 2</title>
+</head>
+<style>
+    body{
+        background-color: rgb(252, 211, 211);
+    }
+</style>
+<body>
+    <form id="formulario">
+        <div class="container-fluid mt-4 text-center">
+            <div class="row">
+                <h1 class="text-center">TEST SOBRE CINE</h1>
+                <div class="col-md-4 mb-5">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="1"> <div id="im1"></div>
+                            <h4 id="p1">1.¿Cómo se llama la pareja protagonista de Grease?</h4>
+                        </label><br>
+                        <label for="pregunta1r1">
+                            <input type="radio" name="1" id="pregunta1r1" value="Danny y Sandy">Danny y Sandy
+                        </label>
+                        <label for="pregunta1r2">
+                            <input type="radio" name="1" id="pregunta1r2" value="Olivia y Jhon">Olivia y Jhon
+                        </label>
+                        <label for="pregunta1r3">
+                            <input type="radio" name="1" id="pregunta1r3" value="Maria y Bernardo">Maria y Bernardo
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="2"><div id="im2"></div>
+                            <h4 id="p2">2.¿Quién es el director de Pulp Fiction?</h4>
+                        </label><br>
+                        <label for="pregunta2r1">
+                            <input type="radio" name="2" id="pregunta2r1" value="Martin Scorsese">Martin Scorsese
+                        </label>
+                        <label for="pregunta2r2">
+                            <input type="radio" name="2" id="pregunta2r2" value="Tim Burton">Tim Burton
+                        </label>
+                        <label for="pregunta2r3">
+                            <input type="radio" name="2" id="pregunta2r3" value="Quentin Tarantino">Quentin Tarantino
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="3"><div id="im3"></div>
+                            <h4 id="p3">3.¿De qué película es la frase "A dios pongo por testigo que no volveré a pasar
+                                hambre"?</h4>
+                        </label><br>
+                        <label for="pregunta3r1">
+                            <input type="radio" name="3" id="pregunta3r1" value="Lo que el viento se llevó">Lo que el
+                            viento se llevó
+                        </label>
+                        <label for="pregunta3r2">
+                            <input type="radio" name="3" id="pregunta3r2" value="Casablanca">Casablanca
+                        </label>
+                        <label for="pregunta3r3">
+                            <input type="radio" name="3" id="pregunta3r3" value="Sonrisas y lágrimas">Sonrisas y
+                            lágrimas
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="4"><div id="im4"></div>
+                            <h4 id="p4">4.¿Cuántos Oscar tiene Almodóvar?</h4>
+                        </label><br>
+                        <label for="pregunta4r1">
+                            <input type="radio" name="4" id="pregunta4r1" value="Tres">Tres
+                        </label>
+                        <label for="pregunta4r2">
+                            <input type="radio" name="4" id="pregunta4r2" value="Dos">Dos
+                        </label>
+                        <label for="pregunta4r3">
+                            <input type="radio" name="4" id="pregunta4r3" value="Cuatro">Cuatro
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="5"><div id="im5"></div>
+                            <h4 id="p5">5.¿Cómo se llama el niño protagonista de Indiana Jones y el templo maldito?</h4>
+                        </label><br>
+                        <label for="pregunta5r1">
+                            <input type="radio" name="5" id="pregunta5r1" value="Tapón">Tapón
+                        </label>
+                        <label for="pregunta5r2">
+                            <input type="radio" name="5" id="pregunta5r2" value="Tam Tam">Tam Tam
+                        </label>
+                        <label for="pregunta5r3">
+                            <input type="radio" name="5" id="pregunta5r3" value="Wilson">Wilson
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="6"><div id="im6"></div>
+                            <h4 id="p6">6.¿Cuántos Oscar tiene Psicosis?</h4>
+                        </label><br>
+                        <label for="pregunta6r1">
+                            <input type="radio" name="6" id="pregunta6r1" value="Cuatro">Cuatro
+                        </label>
+                        <label for="pregunta6r2">
+                            <input type="radio" name="6" id="pregunta6r2" value="Ninguno">Ninguno
+                        </label>
+                        <label for="pregunta6r3">
+                            <input type="radio" name="6" id="pregunta6r3" value="Dos">Dos
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="7"><div id="im7"></div>
+                            <h4 id="p7">7.¿Qué relación tienen Nicolas Cage y Sofía Coppola?</h4>
+                        </label><br>
+                        <label for="pregunta7r1">
+                            <input type="radio" name="7" id="pregunta7r1" value="Tío y sobrina">Tío y sobrina
+                        </label>
+                        <label for="pregunta7r2">
+                            <input type="radio" name="7" id="pregunta7r2" value="Padrino y yerna">Padrino y yerna
+                        </label>
+                        <label for="pregunta7r3">
+                            <input type="radio" name="7" id="pregunta7r3" value="Primos">Primos
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3"> 
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="8"><div id="im8"></div>
+                            <h4 id="p8">8.¿Cuántas veces ha estado nominada Meryl Streep a los Oscar?</h4>
+                        </label><br>
+                        <label for="pregunta8r1">
+                            <input type="radio" name="8" id="pregunta8r1" value="25">25
+                        </label>
+                        <label for="pregunta8r2">
+                            <input type="radio" name="8" id="pregunta8r2" value="21">21
+                        </label>
+                        <label for="pregunta8r3">
+                            <input type="radio" name="8" id="pregunta8r3" value="18">18
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4"> 
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="9"><div id="im9"></div>
+                            <h4 id="p9">9.¿Cuál fue la última película de Woody Allen nominada a un Oscar?</h4>
+                        </label><br>
+                        <label for="pregunta9r1">
+                            <input type="radio" name="9" id="pregunta9r1" value="Blue Jasmine">Blue Jasmine
+                        </label>
+                        <label for="pregunta9r2">
+                            <input type="radio" name="9" id="pregunta9r2" value="Medianoche París">Medianoche París
+                        </label>
+                        <label for="pregunta9r3">
+                            <input type="radio" name="9" id="pregunta9r3" value="Vicky Cristina de Barcelona">Vicky
+                            Cristina de Barcelona
+                        </label>
+                    </div>
+                </div>
+                <div class="row justify-content-center m-0"> 
+                    <div class="col-md-4 border border-2 border-info p-3 mb-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <label for="10"><div id="im10"></div>
+                            <h4 id="p10">10.¿En cuántas películas de Tim Burton aparece Jonny Deep?</h4>
+                        </label><br>
+                        <label for="pregunta10r1">
+                            <input type="radio" name="10" id="pregunta10r1" value="12">12
+                        </label>
+                        <label for="pregunta10r2">
+                            <input type="radio" name="10" id="pregunta10r2" value="8">8
+                        </label>
+                        <label for="pregunta10r3">
+                            <input type="radio" name="10" id="pregunta10r3" value="13">13
+                        </label>
+                    </div>
+                </div>
+                    <div class="row justify-content-center m-0">
+                        <div class="col-auto">
+                            <input class="border border-2 border-info" type="submit" value="Enviar" id="enviarform"
+                                style="background-color:rgb(207, 236, 163)" readonly>
+                        </div>
+                        <div class="col-auto">
+                            <input class="border border-2 border-info" type="reset" value="Borrar" id="borrarform"
+                                style="background-color:rgb(234, 140, 136)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1 class="text-center mt-4">RESULTADOS</h1>
+                    <div class="border border-2 border-info p-3" style="background-color:rgba(203, 206, 255, 0.699)">
+                        <div class="text-center" id="resultado"></div>
+                        <div class="text-center" id="aciertos"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Para que funcione JavaScript dentro del body -->
+    <script src="script.js"></script>
+</body>
+
+</html>
